@@ -1,0 +1,22 @@
+{
+  "type" : "record",
+  "name" : "SimpleOrderServiceEndpoint",
+  "namespace" : "com.example.avro.transport",
+  "fields" : [ {
+    "name" : "endpointAddress",
+    "type" : {
+      "type" : "record",
+      "name" : "InetSocketAddress",
+      "namespace" : "java.net",
+      "fields" : [ ]
+    }
+  }, {
+    "name" : "service",
+    "type" : {
+      "type" : "record",
+      "name" : "Server",
+      "namespace" : "org.apache.avro.ipc",
+      "fields" : [ ]
+    }
+  } ]
+}
