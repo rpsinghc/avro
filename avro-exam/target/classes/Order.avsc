@@ -1,8 +1,0 @@
-{"namespace": "com.example.avro.service",
- "type": "record",
- "name": "Order",
- "fields": [
-	 {"name": "customerid", "type": "int"},
-	{"name": "orderid",  "type": ["int", "null"]},
-	{"name": "orderitems", "type": ["string", "null"]}
-] }
